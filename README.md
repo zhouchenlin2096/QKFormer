@@ -1,1 +1,1 @@
-# Hierarchical Spiking Transformer Using-Q-K Attention
+# Hierarchical Spiking Transformer using-Q-K Attention
