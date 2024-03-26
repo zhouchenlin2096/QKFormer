@@ -1,8 +1,8 @@
 # Hierarchical Spiking Transformer using Q-K Attention [This link](https://arxiv.org/pdf/2403.16552.pdf)
 
 
-Spikingformer is a pure event-driven transformer-based spiking neural network (**75.85% top-1** accuracy on ImageNet-1K, **+ 1.04%** and **significantly reduces energy consumption by 57.34%** compared with Spikformer). To our best knowledge, this is the first time that **a pure event-driven transformer-based SNN** has been developed in 2024/03.
 
+QKFormer achieves a groundbreaking top-1 accuracy of **85.65% top-1** on ImageNet-1k.  This is the first time that directly training SNNs have exceeded 85% accuracy on ImageNet-1K in 2024/03.
 
 ## Reference
 If you find this repo useful, please consider citing:
