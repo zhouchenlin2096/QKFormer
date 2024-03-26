@@ -17,4 +17,4 @@ QKFormer achieves a groundbreaking top-1 accuracy of **85.65% top-1** on ImageNe
 | QKFormer-10-512     | 224x224   | 4      | SNN   | 29.08M     |  82.04     |     -     |
 | QKFormer-10-768     | 224x224   | 4      | SNN   |  64.96M     |   84.22    |   -        | 
 | QKFormer-10-768     | 288x288   | 4     | SNN   |  64.96M     |   85.25   |   -        | 
-| QKFormer-10-768     | 384x384   | 4      | SNN   |  64.96M     |  85.65    |   -        | 
+| QKFormer-10-768     | 384x384   | 4      | SNN   |  64.96M     |  **85.65**   |   -        | 
