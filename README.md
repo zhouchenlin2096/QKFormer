@@ -6,7 +6,7 @@ QKFormer achieves a groundbreaking top-1 accuracy of **85.65% top-1** on ImageNe
 
 ## Main results on ImageNet-1K
 
-| Model                | Resolution| T      |  Type    | Param.      | Top-1 Acc| Download |
+| Model                | Resolution| T      |  Type    | Param.      | Top-1 Acc (%)| Download |
 | :---:                | :---:     | :---:  |:---:  | :---:       |:---:      |:---:      |
 | ViT                  | 384x384   | -      | ANN   |  85.9M     |  77.9    |   -       |
 | Deit-B               | 384x384   | -      | ANN   |  86.0M     |  83.1    |   -       |
