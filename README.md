@@ -5,7 +5,7 @@ QKFormer achieves **a groundbreaking top-1 accuracy of **85.65%** on ImageNet-1k
 
 
 <p align="center">
-<img src="https://github.com/zhouchenlin2096/QKFormer/blob/master/imgs/QKFormer.pdf">
+<img src="https://github.com/zhouchenlin2096/QKFormer/blob/master/imgs/QKFormer.png">
 </p>
 
 ## Main results on ImageNet-1K
