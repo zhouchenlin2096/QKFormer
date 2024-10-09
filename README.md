@@ -12,6 +12,8 @@ QKFormer achieves **a groundbreaking top-1 accuracy of **85.65%** on ImageNet-1k
 
 [2024.10.10] Update code and trained models.
 
+[2024.09.25] Accepted as Spotlight in NeurIPS 2024.
+
 
 ## Main results on ImageNet-1K
 
@@ -30,7 +32,6 @@ QKFormer achieves **a groundbreaking top-1 accuracy of **85.65%** on ImageNet-1k
 | **QKFormer**             | SNN | HST-10-768 | 384x384   | 4         |  64.96M     |  **85.65**  |   [link](https://pan.baidu.com/s/1gRAZR9gkMr5ScHK-kwZAnw)        | 
 
 All download passwords: **abcd**
-
 
 
 ## Requirements
@@ -117,7 +118,7 @@ If you find this repo useful, please consider citing:
 
 
 ## Acknowledgement & Contact Information
-Related project: [spikformer](https://github.com/ZK-Zhou/spikformer), [spikingformer](https://github.com/zhouchenlin2096/Spikingformer), [spikingjelly](https://github.com/fangwei123456/spikingjelly).
+Related project: [spikformer](https://github.com/ZK-Zhou/spikformer), [spikingformer](https://github.com/zhouchenlin2096/Spikingformer), [CML](https://github.com/zhouchenlin2096/Spikingformer-CML), [spikingjelly](https://github.com/fangwei123456/spikingjelly).
 
 For help or issues using this git, please submit a GitHub issue. 
 
