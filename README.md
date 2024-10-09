@@ -12,7 +12,7 @@ QKFormer achieves **a groundbreaking top-1 accuracy of **85.65%** on ImageNet-1k
 
 [2024.10.10] Update code and trained models.
 
-[2024.09.25] Accepted as Spotlight in NeurIPS 2024.
+[2024.09.25] Accepted as a spotlight in NeurIPS 2024.
 
 
 ## Main results on ImageNet-1K
