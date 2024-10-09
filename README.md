@@ -7,9 +7,6 @@ QKFormer achieves **a groundbreaking top-1 accuracy of **85.65%** on ImageNet-1k
 <img src="https://github.com/zhouchenlin2096/QKFormer/blob/master/imgs/QKFormer.png">
 </p>
 
-## Main results on ImageNet-1K
-
-
 
 ## News
 
@@ -26,28 +23,18 @@ QKFormer achieves **a groundbreaking top-1 accuracy of **85.65%** on ImageNet-1k
 
 All download passwords: abcd
 
-| Model                | Resolution| T      |  Type    | Param.      | Top-1 Acc (%)| Download |
-| :---:                | :---:     | :---:  |:---:  | :---:       |:---:      |:---:      |
-| ViT                  | 384x384   | -      | ANN   |  85.9M     |  77.9    |   -       |
-| Deit-B               | 384x384   | -      | ANN   |  86.0M     |  83.1    |   -       |
-| Swin transformer     | 384x384   | -      | ANN   |  88.0M     |  84.5    |   -       |
-| Spikformer-8-768     | 224x224   | 4      | SNN   |  66.34M     |  74.81    |   -       |
-| Spikingformer-8-768  | 224x224   | 4      | SNN   |  66.34M     |  75.85    |   -       |
-| QKFormer-10-384     | 224x224   | 4      | SNN   | 16.47M     |  78.80    |   -       |
-| QKFormer-10-512     | 224x224   | 4      | SNN   | 29.08M     |  82.04     |     -     |
-| QKFormer-10-768     | 224x224   | 4      | SNN   |  64.96M     |   84.22    |   -        | 
-| QKFormer-10-768     | 288x288   | 4     | SNN   |  64.96M     |   85.25   |   -        | 
-| QKFormer-10-768     | 384x384   | 4      | SNN   |  64.96M     |  **85.65**   |   -        | 
-
-## Main results on CIFAR10/CIFAR100/CIFAR10-DVS/DVS128
-
-| Model                | T      |  Param.     | CIFAR10 Top-1 Acc| Download  |CIFAR100 Top-1 Acc|
-| :---:                | :---:  | :---:       |  :---:  |:---:   |:---: |
-| Spikingformer-4-256  | 4      |  4.15M     | 94.77   |   -   |77.43  |
-| Spikingformer-2-384  | 4      |  5.76M     | 95.22   |   -   |78.34  |
-| Spikingformer-4-384  | 4      |  9.32M     | 95.61    |   -  |79.09  |
-| Spikingformer-4-384-400E  | 4      |  9.32M     | 95.81    | - |79.21  |
-
+| Model                |  Type|  Architecture  | Resolution| T        | Param.      | Top-1 Acc (%)| Download |
+| :---:                |:---: |:---: | :---:     | :---:    | :---:       |:---:      |:---:      |
+| ViT                  | ANN | ViT-B/16| 384x384   | -         |  85.9M     |  77.9    |   -       |
+| Deit                 | ANN | DeiT-B | 384x384   | -         |  86.0M     |  83.1    |   -       |
+| Swin transformer     | ANN | Swin Transformer-B | 384x384   | -        |  88.0M     |  84.5    |   -       |
+| Spikformer           | SNN | Spikformer-8-768 | 224x224   | 4         |  66.34M     |  74.81    |   -       |
+| Spikingformer        | SNN | Spikingformer-8-768 | 224x224   | 4        |  66.34M     |  75.85    |   -       |
+| QKFormer             | SNN | HST-10-384 | 224x224   | 4         | 16.47M     |  78.80      |   -       |
+| QKFormer             | SNN | HST-10-512 | 224x224   | 4         | 29.08M     |  82.04      |     -     |
+| QKFormer             | SNN | HST-10-768 | 224x224   | 4         |  64.96M     |   84.22    |   -        | 
+| QKFormer             | SNN | HST-10-768 | 288x288   | 4         |  64.96M     |   85.25     |   -        | 
+| QKFormer             | SNN | HST-10-768 | 384x384   | 4         |  64.96M     |  **85.65**  |   -        | 
 
 ## Requirements
 
@@ -123,12 +110,11 @@ python train.py
 ## Reference
 If you find this repo useful, please consider citing:
 ```
-@article{zhou2023spikingformer,
-  title={Spikingformer: Spike-driven Residual Learning for Transformer-based Spiking Neural Network},
-  author={Zhou, Chenlin and Yu, Liutao and Zhou, Zhaokun and Zhang, Han and Ma, Zhengyu and Zhou, Huihui and Tian, Yonghong},
-  journal={arXiv preprint arXiv:2304.11954},
-  year={2023},
-  url={https://arxiv.org/abs/2304.11954}
+@article{zhou2024qkformer,
+  title={QKFormer: Hierarchical Spiking Transformer using QK Attention},
+  author={Zhou, Chenlin and Zhang, Han and Zhou, Zhaokun and Yu, Liutao and Huang, Liwei and Fan, Xiaopeng and Yuan, Li and Ma, Zhengyu and Zhou, Huihui and Tian, Yonghong},
+  journal={arXiv preprint arXiv:2403.16552},
+  year={2024}
 }
 ```
 
