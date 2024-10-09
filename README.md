@@ -83,7 +83,7 @@ python -m torch.distributed.launch --nproc_per_node=8 train.py
 ```
 
 ### Testing ImageNet Val data
-Download the trained model first [here](https://pan.baidu.com/s/1LsECpFOxh30O3vHWow8OGQ), passwords: abcd
+Download the trained model first, then:
 ```
 cd imagenet
 python test.py
