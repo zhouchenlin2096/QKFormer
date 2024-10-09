@@ -4,6 +4,10 @@
 QKFormer achieves **a groundbreaking top-1 accuracy of **85.65%** on ImageNet-1k**, which is the first time that directly training SNNs have exceeded 85% accuracy on ImageNet-1K in 2024/03.
 
 
+<p align="center">
+<img src="https://github.com/zhouchenlin2096/QKFormer/blob/master/imgs/QKFormer.pdf">
+</p>
+
 ## Main results on ImageNet-1K
 
 | Model                | Resolution| T      |  Type    | Param.      | Top-1 Acc (%)| Download |
