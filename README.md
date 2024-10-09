@@ -118,7 +118,7 @@ If you find this repo useful, please consider citing:
 
 
 ## Acknowledgement & Contact Information
-Related project: [spikformer](https://github.com/ZK-Zhou/spikformer), [spikingformer](https://github.com/zhouchenlin2096/Spikingformer), [CML](https://github.com/zhouchenlin2096/Spikingformer-CML), [spikingjelly](https://github.com/fangwei123456/spikingjelly).
+Related project: [spikformer](https://github.com/ZK-Zhou/spikformer), [spikingformer](https://github.com/zhouchenlin2096/Spikingformer), [spikingjelly](https://github.com/fangwei123456/spikingjelly).
 
 For help or issues using this git, please submit a GitHub issue. 
 
