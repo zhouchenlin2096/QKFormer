@@ -1,7 +1,6 @@
-# QKFormer: Hierarchical Spiking Transformer using Q-K Attention [NeurIPS 2024](https://arxiv.org/abs/2403.16552)
+# QKFormer: Hierarchical Spiking Transformer using Q-K Attention ([NeurIPS 2024](https://arxiv.org/abs/2403.16552))
 
-
-QKFormer achieves **a groundbreaking top-1 accuracy of **85.65%** on ImageNet-1k**, which is the first time that directly training SNNs have exceeded 85% accuracy on ImageNet-1K in 2024/03.
+QKFormer achieves **a groundbreaking top-1 accuracy of **85.65%** on ImageNet-1k**, the first time directly training SNNs have exceeded 85% accuracy on ImageNet-1K in 2024/03.
 
 
 <p align="center">
@@ -9,6 +8,23 @@ QKFormer achieves **a groundbreaking top-1 accuracy of **85.65%** on ImageNet-1k
 </p>
 
 ## Main results on ImageNet-1K
+
+
+
+## News
+
+[2024.10.10] Update code and trained models.
+
+
+## Main results on ImageNet-1K
+
+| Model               | Resolution| T |  Param.     | FLOPs   |  Power |Top-1 Acc| Download |
+| :---:               | :---:     | :---:  | :---:       |  :---:  |  :---:    |:---: |:---: |
+| Spikingformer-8-384 | 224x224   | 4 |  16.81M     | 3.88G   | 4.69 mJ   |72.45  |   -    |
+| Spikingformer-8-512 | 224x224   | 4 |  29.68M     | 6.52G  | 7.46 mJ   |74.79  |     -  |
+| Spikingformer-8-768 | 224x224   | 4  |  66.34M     | 12.54G  | 13.68 mJ  |75.85  |   [here](https://pan.baidu.com/s/1LsECpFOxh30O3vHWow8OGQ) |
+
+All download passwords: abcd
 
 | Model                | Resolution| T      |  Type    | Param.      | Top-1 Acc (%)| Download |
 | :---:                | :---:     | :---:  |:---:  | :---:       |:---:      |:---:      |
@@ -23,33 +39,6 @@ QKFormer achieves **a groundbreaking top-1 accuracy of **85.65%** on ImageNet-1k
 | QKFormer-10-768     | 288x288   | 4     | SNN   |  64.96M     |   85.25   |   -        | 
 | QKFormer-10-768     | 384x384   | 4      | SNN   |  64.96M     |  **85.65**   |   -        | 
 
-## News
-
-[2024.10.10] Update code and trained models.
-
-## Reference
-If you find this repo useful, please consider citing:
-```
-@article{zhou2023spikingformer,
-  title={Spikingformer: Spike-driven Residual Learning for Transformer-based Spiking Neural Network},
-  author={Zhou, Chenlin and Yu, Liutao and Zhou, Zhaokun and Zhang, Han and Ma, Zhengyu and Zhou, Huihui and Tian, Yonghong},
-  journal={arXiv preprint arXiv:2304.11954},
-  year={2023},
-  url={https://arxiv.org/abs/2304.11954}
-}
-```
-
-## Main results on ImageNet-1K
-
-| Model               | Resolution| T |  Param.     | FLOPs   |  Power |Top-1 Acc| Download |
-| :---:               | :---:     | :---:  | :---:       |  :---:  |  :---:    |:---: |:---: |
-| Spikingformer-8-384 | 224x224   | 4 |  16.81M     | 3.88G   | 4.69 mJ   |72.45  |   -    |
-| Spikingformer-8-512 | 224x224   | 4 |  29.68M     | 6.52G  | 7.46 mJ   |74.79  |     -  |
-| Spikingformer-8-768 | 224x224   | 4  |  66.34M     | 12.54G  | 13.68 mJ  |75.85  |   [here](https://pan.baidu.com/s/1LsECpFOxh30O3vHWow8OGQ) |
-
-All download passwords: abcd
-
-
 ## Main results on CIFAR10/CIFAR100/CIFAR10-DVS/DVS128
 
 | Model                | T      |  Param.     | CIFAR10 Top-1 Acc| Download  |CIFAR100 Top-1 Acc|
@@ -61,9 +50,18 @@ All download passwords: abcd
 
 
 ## Requirements
-timm==0.6.12; cupy==11.4.0; torch==1.12.1; spikingjelly==0.0.0.0.12; pyyaml; tensorboard; 
+
+```
+timm==0.6.12
+cupy==11.4.0
+torch==1.12.1
+spikingjelly==0.0.0.0.12
+pyyaml
+tensorboard
+```
 
 data prepare: ImageNet with the following folder structure, you can extract imagenet by this [script](https://gist.github.com/BIGBALLON/8a71d225eff18d88e469e6ea9b39cef4).
+
 ```
 │imagenet/
 ├──train/
@@ -80,7 +78,7 @@ data prepare: ImageNet with the following folder structure, you can extract imag
 │  ├── ......
 ```
 
-## Train
+## Train & Test
 ### Training  on ImageNet
 Setting hyper-parameters in imagenet.yml
 
@@ -122,9 +120,22 @@ cd cifar10-dvs
 python train.py
 ```
 
+## Reference
+If you find this repo useful, please consider citing:
+```
+@article{zhou2023spikingformer,
+  title={Spikingformer: Spike-driven Residual Learning for Transformer-based Spiking Neural Network},
+  author={Zhou, Chenlin and Yu, Liutao and Zhou, Zhaokun and Zhang, Han and Ma, Zhengyu and Zhou, Huihui and Tian, Yonghong},
+  journal={arXiv preprint arXiv:2304.11954},
+  year={2023},
+  url={https://arxiv.org/abs/2304.11954}
+}
+```
+
+
 ## Acknowledgement & Contact Information
 Related project: [spikformer](https://github.com/ZK-Zhou/spikformer), [pytorch-image-models](https://github.com/huggingface/pytorch-image-models), [spikingjelly](https://github.com/fangwei123456/spikingjelly).
 
-For help or issues using this git, please submit a GitHub issue.
+For help or issues using this git, please submit a GitHub issue. 
 
-For other communications related to this git, please get in touch with zhouchl@pcl.ac.cn or zhouchenlin19@mails.ucas.ac.cn.
+For other communications related to this git, please contact zhouchl@pcl.ac.cn or zhouchenlin19@mails.ucas.ac.cn.
