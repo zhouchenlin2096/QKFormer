@@ -18,7 +18,7 @@ i) Linear complexity and high energy efficiency, the novel spike-form Q-K attent
 ii) Multi-scale spiking representation, achieved by a hierarchical structure with the different number of tokens across blocks. 
 iii) Spiking Patch Embedding with Deformed Shortcut (SPEDS), enhances spiking information transmission and integration, thus improving overall performance. 
 %Together, we develop QKFormer, a hierarchical spiking transformer based on Q-K attention with direct training. 
-It is shown that QKFormer achieves significantly superior performance over existing state-of-the-art SNN models on various mainstream datasets. Notably, with comparable size to Spikformer (66.34 M, 74.81%), **QKFormer (64.96 M)** achieves a groundbreaking top-1 accuracy of **85.65%** on ImageNet-1k, substantially outperforming Spikformer by **10.84%**. To our best knowledge, this is the first time that directly training SNNs have exceeded 85% accuracy on ImageNet-1K.
+It is shown that QKFormer achieves significantly superior performance over existing state-of-the-art SNN models on various mainstream datasets. Notably, with comparable size to Spikformer (66.34 M, 74.81%), **QKFormer (64.96 M)** achieves a groundbreaking top-1 accuracy of **85.65%** on ImageNet-1k, substantially outperforming Spikformer by **10.84%**. 
 
 <p align="center">
 <img src="https://github.com/zhouchenlin2096/QKFormer/blob/master/imgs/QKFormer.png">
