@@ -23,10 +23,10 @@ QKFormer achieves **a groundbreaking top-1 accuracy of **85.65%** on ImageNet-1k
 | SEW-ResNet           | SNN | SEW-ResNet-152 | 224x224   | 4         |  60.19M     |  69.26    |   -       |
 | Spikformer           | SNN | Spikformer-8-768 | 224x224   | 4         |  66.34M     |  74.81    |   -       |
 | Spikingformer        | SNN | Spikingformer-8-768 | 224x224   | 4        |  66.34M     |  75.85    |   -       |
-| QKFormer             | SNN | HST-10-384 | 224x224   | 4         | 16.47M     |  78.80      |   -       |
-| QKFormer             | SNN | HST-10-512 | 224x224   | 4         | 29.08M     |  82.04      |     -     |
-| QKFormer             | SNN | HST-10-768 | 224x224   | 4         |  64.96M     |   84.22    |   -        | 
-| QKFormer             | SNN | HST-10-768 | 288x288   | 4         |  64.96M     |   85.25     |   -        | 
+| **QKFormer**             | SNN | HST-10-384 | 224x224   | 4         | 16.47M     |  **78.80**      |   -       |
+| **QKFormer**             | SNN | HST-10-512 | 224x224   | 4         | 29.08M     |  **82.04**      |     -     |
+| **QKFormer**             | SNN | HST-10-768 | 224x224   | 4         |  64.96M     |   **84.22**    |   -        | 
+| **QKFormer**             | SNN | HST-10-768 | 288x288   | 4         |  64.96M     |   **85.25**     |   -        | 
 | **QKFormer**             | SNN | HST-10-768 | 384x384   | 4         |  64.96M     |  **85.65**  |   -        | 
 
 [here](https://pan.baidu.com/s/1LsECpFOxh30O3vHWow8OGQ)
