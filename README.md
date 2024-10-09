@@ -29,8 +29,7 @@ QKFormer achieves **a groundbreaking top-1 accuracy of **85.65%** on ImageNet-1k
 | **QKFormer**             | SNN | HST-10-768 | 288x288   | 4         |  64.96M     |   **85.25**     |   [link](https://pan.baidu.com/s/1UaqY98UqJPJbosKfY103Jg)      | 
 | **QKFormer**             | SNN | HST-10-768 | 384x384   | 4         |  64.96M     |  **85.65**  |   [link](https://pan.baidu.com/s/1gRAZR9gkMr5ScHK-kwZAnw)        | 
 
-[link](https://pan.baidu.com/s/1LsECpFOxh30O3vHWow8OGQ)
-All download passwords: abcd
+All download passwords: **abcd**
 
 
 
