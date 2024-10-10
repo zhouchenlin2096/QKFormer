@@ -30,8 +30,8 @@ import util.misc as misc
 from util.datasets import build_dataset
 from util.misc import NativeScalerWithGradNormCount as NativeScaler
 
-# import models_spikformer_v1
-from models import qkformer_imagenet
+import qkformer
+#from models import qkformer_imagenet
 
 from engine_finetune import train_one_epoch, evaluate
 from timm.data import create_loader
