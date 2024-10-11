@@ -227,7 +227,7 @@ def main(args):
             prob=args.mixup_prob, switch_prob=args.mixup_switch_prob, mode=args.mixup_mode,
             label_smoothing=args.smoothing, num_classes=args.nb_classes)
 
-    model = qkformer_imagenet.__dict__[args.model](T=args.time_step
+    model = qkformer.__dict__[args.model](T=args.time_step
                                                    )
 
     if args.finetune and not args.eval:
