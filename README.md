@@ -133,6 +133,16 @@ If you find this repo useful, please consider citing:
   publisher={Frontiers Media SA}
 }
 
+@article{zhang2024sglformer,
+  title={SGLFormer: Spiking Global-Local-Fusion Transformer with high performance},
+  author={Zhang, Han and Zhou, Chenlin and Yu, Liutao and Huang, Liwei and Ma, Zhengyu and Fan, Xiaopeng and Zhou, Huihui and Tian, Yonghong},
+  journal={Frontiers in Neuroscience},
+  volume={18},
+  pages={1371290},
+  year={2024},
+  publisher={Frontiers Media SA}
+}
+
 @article{zhou2023spikingformer,
   title={Spikingformer: Spike-driven residual learning for transformer-based spiking neural network},
   author={Zhou, Chenlin and Yu, Liutao and Zhou, Zhaokun and Ma, Zhengyu and Zhang, Han and Zhou, Huihui and Tian, Yonghong},
