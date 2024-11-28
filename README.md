@@ -122,6 +122,23 @@ If you find this repo useful, please consider citing:
   journal={arXiv preprint arXiv:2403.16552},
   year={2024}
 }
+
+@article{zhou2024direct,
+  title={Direct training high-performance deep spiking neural networks: a review of theories and methods},
+  author={Zhou, Chenlin and Zhang, Han and Yu, Liutao and Ye, Yumin and Zhou, Zhaokun and Huang, Liwei and Ma, Zhengyu and Fan, Xiaopeng and Zhou, Huihui and Tian, Yonghong},
+  journal={Frontiers in Neuroscience},
+  volume={18},
+  pages={1383844},
+  year={2024},
+  publisher={Frontiers Media SA}
+}
+
+@article{zhou2023spikingformer,
+  title={Spikingformer: Spike-driven residual learning for transformer-based spiking neural network},
+  author={Zhou, Chenlin and Yu, Liutao and Zhou, Zhaokun and Ma, Zhengyu and Zhang, Han and Zhou, Huihui and Tian, Yonghong},
+  journal={arXiv preprint arXiv:2304.11954},
+  year={2023}
+}
 ```
 
 
