@@ -116,11 +116,13 @@ python train.py
 ## Reference
 If you find this repo useful, please consider citing:
 ```
-@article{zhou2024qkformer,
-  title={QKFormer: Hierarchical Spiking Transformer using QK Attention},
-  author={Zhou, Chenlin and Zhang, Han and Zhou, Zhaokun and Yu, Liutao and Huang, Liwei and Fan, Xiaopeng and Yuan, Li and Ma, Zhengyu and Zhou, Huihui and Tian, Yonghong},
-  journal={arXiv preprint arXiv:2403.16552},
-  year={2024}
+@inproceedings{
+zhou2024qkformer,
+title={{QKF}ormer: Hierarchical Spiking Transformer using Q-K Attention},
+author={Chenlin Zhou and Han Zhang and Zhaokun Zhou and Liutao Yu and Liwei Huang and Xiaopeng Fan and Li Yuan and Zhengyu Ma and Huihui Zhou and Yonghong Tian},
+booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},
+year={2024},
+url={https://openreview.net/forum?id=AVd7DpiooC}
 }
 
 @article{zhou2024direct,
