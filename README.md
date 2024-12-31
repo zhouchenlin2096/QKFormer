@@ -43,6 +43,8 @@ It is shown that QKFormer achieves significantly superior performance over exist
 
 All download passwords: **abcd**
 
+QKFormer models download [Google Drive link](https://drive.google.com/drive/folders/1vhq9jmhmuyZ5_RGHuWD4wniza856qF8U?usp=drive_link)
+
 
 ## Requirements
 
