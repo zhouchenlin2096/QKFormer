@@ -35,16 +35,11 @@ It is shown that QKFormer achieves significantly superior performance over exist
 | SEW-ResNet           | SNN | SEW-ResNet-152 | 224x224   | 4         |  60.19M     |  69.26    |   -       |
 | Spikformer           | SNN | Spikformer-8-768 | 224x224   | 4         |  66.34M     |  74.81    |   -       |
 | Spikingformer        | SNN | Spikingformer-8-768 | 224x224   | 4        |  66.34M     |  75.85    |   -       |
-| **QKFormer**             | SNN | HST-10-384 | 224x224   | 4         | 16.47M     |  **78.80**      |   [link](https://pan.baidu.com/s/1mX0jQyKZ5p6ZDzvMVeY20A)   |
-| **QKFormer**             | SNN | HST-10-512 | 224x224   | 4         | 29.08M     |  **82.04**      |     [link](https://pan.baidu.com/s/1luWM1L8gV3BI7REh4MgbkA)    |
-| **QKFormer**             | SNN | HST-10-768 | 224x224   | 4         |  64.96M     |   **84.22**    |   [link](https://pan.baidu.com/s/1WJW1wC0Vs-lvGjYr5pGV_w)        | 
-| **QKFormer**             | SNN | HST-10-768 | 288x288   | 4         |  64.96M     |   **85.25**     |   [link](https://pan.baidu.com/s/1UaqY98UqJPJbosKfY103Jg)      | 
-| **QKFormer**             | SNN | HST-10-768 | 384x384   | 4         |  64.96M     |  **85.65**  |   [link](https://pan.baidu.com/s/1gRAZR9gkMr5ScHK-kwZAnw)        | 
-
-All download passwords: **abcd**
-
-QKFormer models download [Google Drive link](https://drive.google.com/drive/folders/1vhq9jmhmuyZ5_RGHuWD4wniza856qF8U?usp=drive_link)
-
+| **QKFormer**             | SNN | HST-10-384 | 224x224   | 4         | 16.47M     |  **78.80**      |   -     |
+| **QKFormer**             | SNN | HST-10-512 | 224x224   | 4         | 29.08M     |  **82.04**      |     -    |
+| **QKFormer**             | SNN | HST-10-768 | 224x224   | 4         |  64.96M     |   **84.22**    |   - | 
+| **QKFormer**             | SNN | HST-10-768 | 288x288   | 4         |  64.96M     |   **85.25**     |   -     | 
+| **QKFormer**             | SNN | HST-10-768 | 384x384   | 4         |  64.96M     |  **85.65**  |   -     | 
 
 ## Requirements
 
@@ -159,6 +154,4 @@ url={https://openreview.net/forum?id=AVd7DpiooC}
 ## Acknowledgement & Contact Information
 Related project: [spikformer](https://github.com/ZK-Zhou/spikformer), [spikingformer](https://github.com/zhouchenlin2096/Spikingformer), [spikingjelly](https://github.com/fangwei123456/spikingjelly).
 
-For help or issues using this git, please submit a GitHub issue. 
-
-For other communications related to this git, please contact zhouchl@pcl.ac.cn or zhouchenlin19@mails.ucas.ac.cn.
+Recommend: [MaxFormer](https://github.com/bic-L/MaxFormer), a work with the same architecture as QKFormer, yet superior.
